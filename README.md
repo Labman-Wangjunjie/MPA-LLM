@@ -9,7 +9,7 @@
 ## Introduction
 The MPA-LLM framework. Traffic data are processed through a sequence of varying resolutions in a coarse-to-fine manner. The Multi-Head Attention layers and Text Embedder of the pre-trained LLM are kept frozen to preserve general language modeling capabilities, while the Flow2Vec Embedder, normalization layers, feed-forward layers, and the shared MLP projection head are fine-tuned to align latent representations with diverse downstream tasks.
 
-![screenshot](./figures/MPA-LLM-Architecture.jpg)
+![screenshot](./figures/MPA-LLM-Architecture.png)
 
 ## Requirements
 Use python 3.10 from MiniConda
