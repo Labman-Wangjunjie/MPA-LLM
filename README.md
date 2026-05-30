@@ -48,7 +48,7 @@ These three public datasets are under `./dataset/net_traffic/Abilene`, `./datase
 
 We provide experiment scripts for all three tasks: **Imputation, Anomaly Detection, and Forecasting**. The scripts are organized into two corresponding directories.
 
-*(Note: Because the directory `Detection AND Imputation` contains spaces, we wrap the execution paths in quotes below to prevent terminal errors).*
+
 
 ### Part 1: Detection and Imputation
 
@@ -114,6 +114,4 @@ WS-DREAM Dataset Test:
 bash ./Forecasting/scripts/wsdream.sh
 ```
 
-## Detailed usage
 
-Please refer to `./Detection AND Imputation/run.py` and `./Forecasting/run.py` for the detailed description of each hyperparameter.
