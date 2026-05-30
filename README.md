@@ -42,7 +42,7 @@ pip install -r requirements.txt
 These three public datasets are under `./dataset/net_traffic/Abilene`, `./dataset/net_traffic/GEANT` and `./dataset/net_traffic/wsdream`. Once the paper is accepted, we will make the dataset download link publicly available.
 
 ## LLM settings
-`./Detection AND Imputation/models/ARI-LLM.py` and `./Forecasting/models/ARI-LLM.py` provide examples of using GPT2, deepseek_R1_1.5b, and llama_3.1_8b. Our experiments are based on these models. Please download the corresponding models from Hugging Face to the corresponding locations.
+`./Detection AND Imputation/models/MPA-LLM.py` and `./Forecasting/models/MPA-LLM.py` provide examples of using GPT2, deepseek_R1_1.5b, and llama_3.1_8b. Our experiments are based on these models. Please download the corresponding models from Hugging Face to the corresponding locations.
 
 ## How to Run the Model
 
