@@ -30,7 +30,7 @@ python -u run.py \
     --llm_model $llm_model \
     --data "net_traffic_geant" \
     --seq_len $seq_len \
-    --batch_size "35" \
+    --batch_size "32" \
     --learning_rate "0.001" \
     --mlp "1" \
     --d_model "768" \
